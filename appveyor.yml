@@ -50,5 +50,3 @@ build_script:
 test_script:
   - cmd: cargo test --target %TARGET%
   
-artifacts:
-  - path: '**\*.exe'
